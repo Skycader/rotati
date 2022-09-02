@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rotaty</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<button id="turn" onclick = "setInterval(rotateChosen,1000/60)" class = "" style = "position: absolute; top: 130px; left: 10px; width: 294px; height: 40px">Start Rotating</button>
+<input type = "text"  id="takefrom" placeholder = " Speed (-0.01)" style = "position: absolute; left: 10px; top: 50px; width: 290px; height: 40px"></input>
+<input type = "text"  id="name" placeholder = " figure (square,triangle,house,strange,strange2)" style = "position: absolute; left: 10px; top: 90px; width: 290px; height: 40px"></input>
+<canvas id="canvas" width="5000" height="5000"></canvas>
+  <input type="checkbox" id = 'circles' style = "position: absolute; top: 47px; left: 330px; width: 294px; height: 40px" name="lunch">
+  <h2 type='text' style = "position: absolute; top: 32px; left: 310px;"> Draw Circles </h2>
+    <input type="checkbox" id = 'points' style = "position: absolute; top: 107px; left: 330px; width: 294px; height: 40px" name="lunch">
+  <h2 type='text' style = "position: absolute; top: 92px; left: 310px;"> Draw Points</h2>
+   <input type="checkbox" id = 'fig' style = "position: absolute; top: 157px; left: 330px; width: 294px; height: 40px" name="lunch">
+  <h2 type='text' style = "position: absolute; top: 142px; left: 310px;"> Draw Figure</h2>
+
+  <script src="index.js"></script>
+</body>
+</html>
